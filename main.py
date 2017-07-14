@@ -12,7 +12,7 @@ from lightfm import LightFM
 
 #fetch datasets _ MOVIE LENS "csv file contains 1700 movies, 100,000 ratings out of 5 and 1000 users"
 #each user rated atleast 1 to 20 movies
-data = fectch_movielens(min_rating = 3.0)
+data = fetch_movielens(min_rating = 3.0)
 
 #above method will create interaction matrix from csv file for only rating above 3.object
 #store this matrix from csv for creating recommendation model
